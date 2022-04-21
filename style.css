@@ -1,7 +1,20 @@
 .wrapper{
-    width: 400px;
-    height: 200px;
+    width: 800px;
+    height: 400px;
     background: rgb(63,94,251);
     background: linear-gradient(320deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    
+}
+
+/* .wrapper_2{
+    width:400px ;
+    height: 200px;
+    background-color:white;
+
+} */
+.form_container{
+
+}
+.signin_form{
     
 }
