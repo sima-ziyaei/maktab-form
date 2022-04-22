@@ -6,31 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/
+font-awesome.min.css">
 </head>
 <body>
     
     <div class="wrapper">
         <div class="form_container">
             <div class="signin_form" >
-                ورود کاربری<br><br>
+                      <p class="username-signin">ورود کاربری</p><br>
                 <form>
+                    <div class="input-icons">
                     <label for="email" ></label>
-                    <input type="email" id="email" name="email" placeholder="ایمیل"/><br><br>
+                    <input type="email" id="email" name="email" placeholder="     ایمیل" /><i class="fa fa-envelope"></i><br><br>
+                    
                     <label for="password"></label>
-                    <input type="password" id="password" placeholder="کلمه عبور"/><br><br>
-                    <input type="submit" value="ورود"/>
+                    <input type="password" id="password" placeholder="     کلمه عبور    "/><i class="fa fa-lock"></i><br><br>
+                    <input class="colorgreen" type="submit" value=" ورود"/>
+                    </div>
                 </form>
 
             </div>
             <div class="signup_form">
-                ثبت نام کاربر <br><br>
+                <p class="username-signup">ثبت نام کاربر </p>
                 <form>
-                    <input type="text" name="name" placeholder="نام"/><br><br>
+                    <div class="input-icons">
+                    <input type="text" name="name" placeholder="     نام"/><i class="fa fa-user" name="name"></i><br><br>
                     <label for="email" ></label>
-                    <input type="email" id="email" name="email" placeholder="ایمیل"/><br><br>
+                    
+
+                    <input class="img_email" type="email" id="email" name="email" placeholder="     ایمیل"/><i class="fa fa-envelope"></i><br><br>
                     <label for="password"></label>
-                    <input type="password" id="password" placeholder="کلمه عبور"/><br><br>
-                    <input type="submit" value="ثبت نام"/>
+                
+                    <input  type="password" id="password" placeholder="      کلمه عبور"/><i class="fa fa-lock"></i><br><br>
+                    <input class="colorred" type="submit" value="ثبت نام"/>
+                    </div>
                 </form>
 
             </div>
